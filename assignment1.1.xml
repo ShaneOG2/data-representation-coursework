@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library>
+    <Technical>
+        <Book>
+            <ISBN>006230125X</ISBN>
+            <Title>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future</Title>
+            <Author>Ashlee Vance</Author>
+        </Book>
+        <Book>
+            <ISBN>0062464310</ISBN>
+            <Title>Homo Deus (Homo Deus: A Brief History of Tomorrow)</Title>
+            <Author>Yuval Noah Harari</Author>
+        </Book>
+    </Technical>
+
+    <Cookery>
+        <Book>
+            <ISBN>9780717184385</ISBN>
+            <Title>Eat Up Raise Your Game</Title>
+            <Author>Daniel Davey</Author>
+        </Book>
+        <Book>
+            <ISBN>9780008430382</ISBN>
+            <Title>Feel Good Food</Title>
+            <Author>Joe Wicks</Author>
+        </Book>
+    </Cookery>
+</Library>
