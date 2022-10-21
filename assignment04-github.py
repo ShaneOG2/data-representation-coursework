@@ -14,5 +14,7 @@ gitHubKey = config['gitHubKey']
 g = Github(gitHubKey)
 
 repo = g.get_repo("ShaneOG2/data-representation-coursework")
-fileInfo = repo.get_contents("assignment04-file.txt")
-print(fileInfo)
+
+fileContent = repo.get_contents("assignment04-file.txt")
+
+print(fileContent.decoded_content.decode())
