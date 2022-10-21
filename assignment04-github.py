@@ -17,4 +17,9 @@ repo = g.get_repo("ShaneOG2/data-representation-coursework")
 
 fileContent = repo.get_contents("assignment04-file.txt")
 
-print(fileContent.decoded_content.decode())
+fileContentDecoded = fileContent.decoded_content.decode() # https://stackoverflow.com/a/64739176
+
+fileContentDecoded = fileContentDecoded.lower()
+fileContentDecoded = fileContentDecoded.replace("andrew", "Shane")
+
+print(fileContentDecoded)
